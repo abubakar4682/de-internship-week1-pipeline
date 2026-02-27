@@ -1,0 +1,74 @@
+2026-02-27 01:55:31,727 [INFO] 🚀 StoryPoints AI — Week 1 ETL Pipeline Starting
+2026-02-27 01:55:31,727 [INFO]    Run date (UTC): 2026-02-27
+
+2026-02-27 01:55:31,727 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-27 01:55:31,727 [INFO] STAGE 1: INGEST
+2026-02-27 01:55:31,727 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-27 01:55:31,727 [INFO] ============================================================
+2026-02-27 01:55:31,727 [INFO] 🚀 Starting ingestion pipeline — 2026-02-27
+2026-02-27 01:55:31,727 [INFO] ============================================================
+2026-02-27 01:55:31,727 [INFO] 📂 Reading Clickstream in chunks of 50,000 rows...
+2026-02-27 01:55:31,804 [INFO]    Chunk 1: 50,000 rows loaded (total so far: 50,000)
+2026-02-27 01:55:31,869 [INFO]    Chunk 2: 50,000 rows loaded (total so far: 100,000)
+2026-02-27 01:55:31,934 [INFO]    Chunk 3: 50,000 rows loaded (total so far: 150,000)
+2026-02-27 01:55:32,000 [INFO]    Chunk 4: 50,000 rows loaded (total so far: 200,000)
+2026-02-27 01:55:32,002 [INFO] ✅ Clickstream ingested: 200,000 total rows, 6 columns
+2026-02-27 01:55:32,002 [INFO] 📂 Reading Transactions in chunks of 50,000 rows...
+2026-02-27 01:55:32,058 [INFO]    Chunk 1: 50,000 rows loaded (total so far: 50,000)
+2026-02-27 01:55:32,112 [INFO]    Chunk 2: 50,000 rows loaded (total so far: 100,000)
+2026-02-27 01:55:32,112 [INFO] ✅ Transactions ingested: 100,000 total rows, 5 columns
+2026-02-27 01:55:32,113 [INFO] 🌐 Fetching currency rates (attempt 1/3)...
+2026-02-27 01:55:32,254 [WARNING] ⚠️  API returned error: {'result': 'error', 'documentation': 'https://www.exchangerate-api.com/docs', 'terms-of-use': 'https://www.exchangerate-api.com/terms', 'error-type': 'inactive-account', 'extra-info': 'Please contact support.'}
+2026-02-27 01:55:32,254 [INFO]    Retrying in 2s...
+2026-02-27 01:55:34,260 [INFO] 🌐 Fetching currency rates (attempt 2/3)...
+2026-02-27 01:55:34,396 [WARNING] ⚠️  API returned error: {'result': 'error', 'documentation': 'https://www.exchangerate-api.com/docs', 'terms-of-use': 'https://www.exchangerate-api.com/terms', 'error-type': 'inactive-account', 'extra-info': 'Please contact support.'}
+2026-02-27 01:55:34,396 [INFO]    Retrying in 4s...
+2026-02-27 01:55:38,401 [INFO] 🌐 Fetching currency rates (attempt 3/3)...
+2026-02-27 01:55:38,522 [WARNING] ⚠️  API returned error: {'result': 'error', 'documentation': 'https://www.exchangerate-api.com/docs', 'terms-of-use': 'https://www.exchangerate-api.com/terms', 'error-type': 'inactive-account', 'extra-info': 'Please contact support.'}
+2026-02-27 01:55:38,522 [INFO]    Retrying in 8s...
+2026-02-27 01:55:46,527 [ERROR] ❌ All API attempts failed. Currency rates unavailable.
+2026-02-27 01:55:46,530 [INFO] 
+📊 Ingestion Summary:
+2026-02-27 01:55:46,530 [INFO]    Clickstream rows  : 200,000
+2026-02-27 01:55:46,531 [INFO]    Transactions rows : 100,000
+2026-02-27 01:55:46,531 [INFO]    Currency pairs    : 0
+2026-02-27 01:55:46,531 [WARNING] ⚠️  ALERT: Currency rates unavailable — USD enrichment will be skipped!
+2026-02-27 01:55:46,531 [INFO] ✅ Ingestion complete. Returning data for transformation.
+
+2026-02-27 01:55:46,531 [INFO] 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-27 01:55:46,531 [INFO] STAGE 2: TRANSFORM
+2026-02-27 01:55:46,531 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-27 01:55:46,531 [INFO] ==================================================
+2026-02-27 01:55:46,531 [INFO] Transformation pipeline
+2026-02-27 01:55:46,531 [INFO] ==================================================
+2026-02-27 01:55:46,531 [INFO] Transforming clickstream...
+2026-02-27 01:55:46,700 [INFO] Converted click_time to UTC
+2026-02-27 01:55:46,767 [INFO] Removed 0 duplicates
+2026-02-27 01:55:46,771 [INFO] Clickstream: 200000 to 200000 rows
+2026-02-27 01:55:46,771 [INFO] Transforming transactions...
+2026-02-27 01:55:46,839 [INFO] Converted txn_time to UTC
+2026-02-27 01:55:46,864 [INFO] Removed 0 duplicates
+2026-02-27 01:55:46,867 [INFO] Transactions: 100000 to 100000 rows
+2026-02-27 01:55:46,867 [INFO] 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-27 01:55:46,867 [INFO] STAGE 3: LOAD
+2026-02-27 01:55:46,867 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-27 01:55:46,867 [INFO] ============================================================
+2026-02-27 01:55:46,867 [INFO] 💾 Starting load pipeline
+2026-02-27 01:55:46,867 [INFO] ============================================================
+2026-02-27 01:55:47,719 [INFO] ✅ Saved clickstream: 200,000 rows → data/processed/clickstream/ingest_date=2026-02-27/data.csv (19817.3 KB)
+2026-02-27 01:55:48,183 [INFO] ✅ Saved transactions: 100,000 rows → data/processed/transactions/ingest_date=2026-02-27/data.csv (8996.2 KB)
+2026-02-27 01:55:48,184 [WARNING] ⚠️  ALERT: currency output is empty — nothing to save!
+2026-02-27 01:55:48,184 [INFO] 
+============================================================
+2026-02-27 01:55:48,184 [INFO] 📊 PIPELINE SUMMARY
+2026-02-27 01:55:48,184 [INFO] ============================================================
+2026-02-27 01:55:48,184 [INFO]    ✅ OK  clickstream          |    200,000 rows
+2026-02-27 01:55:48,184 [INFO]    ✅ OK  transactions         |    100,000 rows
+2026-02-27 01:55:48,184 [INFO]    ❌ FAILED  currency             |          0 rows
+2026-02-27 01:55:48,184 [INFO] ============================================================
+2026-02-27 01:55:48,184 [INFO] 
+✅ Pipeline completed successfully!
+2026-02-27 01:55:48,184 [INFO] 📁 Outputs: data/processed/
+2026-02-27 01:55:48,184 [INFO] 📝 Logs:    logs/pipeline_2026-02-27.log
