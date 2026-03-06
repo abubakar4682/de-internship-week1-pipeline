@@ -1,80 +1,34 @@
-# StoryPoints AI — Week 1 Data Engineering Pipeline
+📌 Overview
+A production-style ETL (Extract, Transform, Load) pipeline built for StoryPoints AI's Data Engineering Internship. The project spans two weeks:
 
-## 📌 Overview
+Week 1 — Build ETL scripts to ingest, transform, and load clickstream and transaction data
+Week 2 — Orchestrate the pipeline using Apache Airflow with data validation, metadata tracking, and monitoring
 
-A production-style **ETL (Extract, Transform, Load)** pipeline built for StoryPoints AI's Week 1 Data Engineering Internship. The pipeline ingests large-scale clickstream and transaction datasets alongside live currency conversion rates, applies real-world data transformations, and stores cleaned outputs in a partitioned folder structure that mirrors a production GCS bucket.
 
----
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        DATA SOURCES                         │
-│                                                             │
-│  ┌──────────────────┐  ┌──────────────────┐  ┌──────────┐  │
-│  │  clickstream.csv │  │ transactions.csv │  │ Exchange │  │
-│  │   (200,000 rows) │  │  (100,000 rows)  │  │ Rate API │  │
-│  └────────┬─────────┘  └────────┬─────────┘  └────┬─────┘  │
-└───────────┼────────────────────┼────────────────────┼───────┘
-            │                    │                    │
-            ▼                    ▼                    ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    STAGE 1: INGEST                          │
-│                       ingest.py                             │
-│  • Read CSVs in 50,000-row chunks (memory efficient)        │
-│  • Fetch live currency rates via REST API                   │
-│  • Retry logic with exponential backoff (2s → 4s → 8s)     │
-│  • Save raw JSON to data/raw/api_currency/YYYY-MM-DD/       │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   STAGE 2: TRANSFORM                        │
-│                      transform.py                           │
-│  • Standardize column names → snake_case                    │
-│  • Convert all timestamps → UTC                             │
-│  • Deduplicate rows                                         │
-│  • Enrich transactions with amount_in_usd                   │
-│  • Log null values and data quality warnings                │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     STAGE 3: LOAD                           │
-│                        load.py                              │
-│  • Write to partitioned output folders                      │
-│  • Path: data/processed/<dataset>/ingest_date=YYYY-MM-DD/   │
-│  • Log record counts, file sizes, and pipeline summary      │
-│  • Alert if any dataset is empty or fails                   │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   PARTITIONED OUTPUT                        │
-│                                                             │
-│  data/processed/clickstream/ingest_date=2026-02-27/         │
-│  data/processed/transactions/ingest_date=2026-02-27/        │
-│  data/processed/currency/ingest_date=2026-02-27/            │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📂 Project Structure
-
-```
+🗂️ Project Structure
 storypoints-week1/
-├── pipeline.py                  # Master ETL runner
+├── pipeline.py                        # Week 1: Master ETL runner
 ├── README.md
-├── .env                         # API keys (not committed)
+├── .env                               # API keys (not committed)
 ├── .gitignore
 ├── scripts/
-│   ├── ingest.py                # Task 2: Extract CSVs + API
-│   ├── transform.py             # Task 3: Clean + enrich
-│   ├── load.py                  # Task 4+5: Save + log
-│   ├── explore.py               # Task 1: Schema exploration
-│   └── setup_folders.py        # Project structure setup
+│   ├── ingest.py                      # Extract CSVs + API
+│   ├── transform.py                   # Clean + enrich data
+│   ├── load.py                        # Save + log
+│   ├── explore.py                     # Schema exploration
+│   └── setup_folders.py              # Project structure setup
+├── week2_orchestration/
+│   ├── dags/
+│   │   └── etl_week2_dag.py          # Airflow DAG (7 tasks)
+│   ├── validation/
+│   │   └── validation.py             # Data quality checks
+│   ├── metadata/
+│   │   ├── metadata_tracker.py       # Metadata tracking
+│   │   └── run_log.csv               # Pipeline run history
+│   ├── logs/
+│   │   ├── dag_YYYY-MM-DD.log        # Daily DAG logs
+│   │   └── alerts.log                # Pipeline failure alerts
+│   └── docker-compose.yaml           # Airflow Docker setup
 ├── data/
 │   ├── raw/
 │   │   ├── clickstream/clickstream.csv
@@ -86,167 +40,99 @@ storypoints-week1/
 │       └── currency/ingest_date=YYYY-MM-DD/data.csv
 └── logs/
     └── pipeline_YYYY-MM-DD.log
-```
 
----
-
-## 📊 Dataset Understanding (Task 1)
-
-### clickstream.csv
-
-| Column | Type | Description |
-|--------|------|-------------|
-| user_id | int64 | Unique user identifier (1 – 50,000) |
-| session_id | string | UUID identifying a user session |
-| page_url | string | Page visited (e.g. /home, /checkout) |
-| click_time | string → UTC datetime | Timestamp of the click event |
-| device | string | Device type (desktop / mobile) |
-| location | string | 2-letter country code (e.g. AU, GB, DE) |
-
-**Shape:** 200,000 rows × 6 columns
-**Null values:** ✅ None
-**Duplicate rows:** ✅ None
-**user_id range:** 1 – 50,000 (mean: 24,963)
-
----
-
-### transactions.csv
-
-| Column | Type | Description |
-|--------|------|-------------|
-| txn_id | string | UUID for each transaction |
-| user_id | int64 | Unique user identifier (1 – 50,000) |
-| amount | float64 | Transaction amount in original currency |
-| currency | string | ISO currency code (USD, GBP, EUR, etc.) |
-| txn_time | string → UTC datetime | Timestamp of the transaction |
-
-**Shape:** 100,000 rows × 5 columns
-**Null values:** ✅ None
-**Duplicate rows:** ✅ None
-**Amount range:** $3.91 – $43,497.95 (mean: $7,075.29)
-
-**Enriched column added by pipeline:**
-| Column | Type | Description |
-|--------|------|-------------|
-| amount_in_usd | float64 | Transaction amount converted to USD using live rates |
-
----
-
-### ExchangeRate API
-
-| Property | Value |
-|----------|-------|
-| Source | https://v6.exchangerate-api.com/v6/{KEY}/latest/USD |
-| Format | JSON |
-| Base currency | USD |
-| Currencies covered | 160+ |
-| Raw storage | data/raw/api_currency/YYYY-MM-DD/rates.json |
-
----
-
-## ⚙️ Key Design Decisions
-
-**Chunked CSV reading** — Files are read in 50,000-row chunks using `pd.read_csv(chunksize=50000)` to handle large datasets without memory issues.
-
-**UTC standardization** — All timestamps are converted to UTC using `pd.to_datetime(utc=True)` to ensure consistency across global data sources.
-
-**Exponential backoff** — API calls retry up to 3 times with delays of 2s, 4s, and 8s to handle transient network failures gracefully.
-
-**Hive-style partitioning** — Outputs use `ingest_date=YYYY-MM-DD/` folder naming, compatible with BigQuery, Athena, and Spark for efficient date-based querying.
-
-**Secret management** — API keys are stored in `.env` and loaded via `python-dotenv`, never hardcoded in source code.
-
-**Idempotency** — Re-running the pipeline for the same date overwrites existing partitions, preventing data duplication.
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
+WEEK 1 — ETL Pipeline
+Architecture
+DATA SOURCES
+  clickstream.csv (200,000 rows)
+  transactions.csv (100,000 rows)
+  ExchangeRate API
+        |
+        v
+STAGE 1: INGEST
+  - Read CSVs in 50,000-row chunks
+  - Fetch live currency rates via REST API
+  - Retry logic with exponential backoff
+        |
+        v
+STAGE 2: TRANSFORM
+  - Standardize column names to snake_case
+  - Convert all timestamps to UTC
+  - Deduplicate rows
+  - Enrich transactions with amount_in_usd
+        |
+        v
+STAGE 3: LOAD
+  - Write to partitioned output folders
+  - Path: data/processed/<dataset>/ingest_date=YYYY-MM-DD/
+  - Log record counts, file sizes, pipeline summary
+Dataset Understanding (Task 1)
+clickstream.csv
+ColumnTypeDescriptionuser_idint64Unique user identifier (1 to 50,000)session_idstringUUID identifying a user sessionpage_urlstringPage visited (e.g. /home, /checkout)click_timestring to UTC datetimeTimestamp of the click eventdevicestringDevice type (desktop / mobile)locationstring2-letter country code (e.g. AU, GB, DE)
+Shape: 200,000 rows x 6 columns | Nulls: None | Duplicates: None
+transactions.csv
+ColumnTypeDescriptiontxn_idstringUUID for each transactionuser_idint64Unique user identifier (1 to 50,000)amountfloat64Transaction amount in original currencycurrencystringISO currency code (USD, GBP, EUR, etc.)txn_timestring to UTC datetimeTimestamp of the transaction
+Shape: 100,000 rows x 5 columns | Nulls: None | Duplicates: None | Amount range: $3.91 to $43,497.95
+How to Run Week 1
+bashgit clone <your-repo-url>
 cd storypoints-week1
-```
-
-### 2. Create virtual environment
-```bash
 python3 -m venv venv
 source venv/bin/activate
-```
-
-### 3. Install dependencies
-```bash
 pip install pandas requests pyarrow python-dotenv
-```
 
-### 4. Set up environment variables
-```bash
-cp .env.example .env
-# Add your ExchangeRate API key to .env
-```
-
-### 5. Add raw data files
-```
-data/raw/clickstream/clickstream.csv
-data/raw/transactions/transactions.csv
-```
-
-### 6. Explore the data (Task 1)
-```bash
+# Explore data
 python scripts/explore.py
-```
 
-### 7. Run the full pipeline
-```bash
+# Run full pipeline
 python pipeline.py
-```
 
----
+WEEK 2 — Orchestration, Validation & Monitoring
+DAG Architecture
+ingest_clickstream  --|
+ingest_transactions --|-> transform -> validate -> load -> track_metadata
+ingest_currency_api --|
+DAG Details
+PropertyValueDAG IDstorypoints_etl_week2ScheduleDaily at 9:00 AM UTCTotal Tasks7 PythonOperatorsRetries3 (with 5 min delay)CatchupFalseTrigger Ruleall_success (track_metadata: all_done)
+Task Descriptions
+TaskDescriptioningest_clickstreamReads clickstream CSV in 50k chunks, saves to stagingingest_transactionsReads transactions CSV in 50k chunks, saves to stagingingest_currency_apiFetches live USD rates from ExchangeRate API with retrytransformCleans columns, converts timestamps, deduplicates, enrichesvalidateRuns 7 data quality checks before loadingloadSaves to partitioned folders (idempotent)track_metadataRecords run stats to run_log.csv (always runs)
 
-## 📋 Pipeline Output Example
+Data Validation Rules (Task 3)
+Clickstream Validations
+CheckRuleRow countMust be > 0Null checkNo nulls in user_id, session_id, page_urluser_idMust be positive integerDevice typeMust be desktop, mobile, or tabletDuplicatesNo duplicate session_id + page_url combinations
+Transaction Validations
+CheckRuleRow countMust be > 0Null checkNo nulls in txn_id, user_id, amount, currencyAmountsAll amounts must be greater than 0Currency codesMust be valid ISO 4217 codesDuplicate IDsNo duplicate transaction IDs
 
-```
-2026-02-27 01:55:31 [INFO] 🚀 StoryPoints AI — Week 1 ETL Pipeline Starting
-2026-02-27 01:55:31 [INFO] STAGE 1: INGEST
-2026-02-27 01:55:31 [INFO] 📂 Reading Clickstream in chunks of 50,000 rows...
-2026-02-27 01:55:31 [INFO]    Chunk 1: 50,000 rows loaded (total so far: 50,000)
-2026-02-27 01:55:32 [INFO]    Chunk 4: 50,000 rows loaded (total so far: 200,000)
-2026-02-27 01:55:32 [INFO] ✅ Clickstream ingested: 200,000 total rows, 6 columns
-2026-02-27 01:55:32 [INFO] ✅ Transactions ingested: 100,000 total rows, 5 columns
-2026-02-27 01:55:32 [INFO] ✅ Currency rates fetched: 160 currencies
-2026-02-27 01:55:32 [INFO] STAGE 2: TRANSFORM
-2026-02-27 01:55:32 [INFO] ✅ Clickstream: 200,000 → 200,000 rows
-2026-02-27 01:55:32 [INFO] ✅ Transactions: 100,000 → 100,000 rows
-2026-02-27 01:55:32 [INFO] STAGE 3: LOAD
-2026-02-27 01:55:33 [INFO] ✅ Saved clickstream: 200,000 rows (12.4 MB)
-2026-02-27 01:55:33 [INFO] ✅ Saved transactions: 100,000 rows (8.1 MB)
-2026-02-27 01:55:33 [INFO] ✅ Pipeline completed successfully!
-```
+Metadata Tracking (Task 4)
+Every pipeline run is tracked in week2_orchestration/metadata/run_log.csv:
+ColumnDescriptionrun_dateDate of pipeline runrun_timestampExact UTC timestampclickstream_rows_ingestedRows ingested from clickstreamtransactions_rows_ingestedRows ingested from transactionscurrency_pairs_fetchedNumber of currency rates fetchedvalidation_statusPASSED or FAILEDloaded_rowsRows loaded per datasetstatusSUCCESS or FAILED
 
----
+Monitoring & Alerts (Task 5)
+Every task has an on_failure_callback that logs to alerts.log:
+2026-03-05T22:00:00+00:00 | ALERT | DAG=storypoints_etl_week2 | TASK=ingest_clickstream | ERROR=FileNotFoundError
+Email alerts configured via default_args with 3 retries and 5 minute delay between retries.
 
-## 🛠️ Tech Stack
+How to Run Week 2
+bashcd storypoints-week1/week2_orchestration
 
-| Tool | Purpose |
-|------|---------|
-| Python 3.11 | Core language |
-| Pandas | Data processing and transformation |
-| Requests | REST API calls |
-| PyArrow | Parquet support |
-| python-dotenv | Secret management |
-| Git | Version control |
+# Start Airflow
+docker compose up airflow-init
+docker compose up -d
 
----
+# Access UI
+# URL: http://localhost:8080
+# Username: airflow
+# Password: airflow
 
-## 💡 Assumptions
+Tech Stack
+ToolPurposePython 3.11Core languagePandasData processingApache Airflow 2.8.0Pipeline orchestrationDockerContainerized AirflowRequestsREST API callspython-dotenvSecret managementGitVersion control
 
-- Raw CSV files are assumed to be UTF-8 encoded
-- All transaction currencies are valid ISO 4217 codes
-- Pipeline is designed to run once daily (date-partitioned)
-- Local folder structure mirrors production GCS bucket paths
+Key Design Decisions
 
----
+Chunked CSV reading — 50,000-row chunks to avoid memory issues
+UTC standardization — all timestamps in UTC for global consistency
+Exponential backoff — API retries with 2s, 4s, 8s delays
+Hive-style partitioning — ingest_date=YYYY-MM-DD/ folder naming
+Idempotency — reruns safely overwrite existing partitions
+track_metadata uses all_done — always records run even on failure
+<img width="1463" height="835" alt="Screenshot 2026-03-06 at 9 36 34 pm" src="https://github.com/user-attachments/assets/bcc2f423-8da1-491c-a98c-6a2f9dd16471" />
 
-## 👤 Author
-
-Built as part of the **StoryPoints AI Data Engineering Internship — Week 1**
