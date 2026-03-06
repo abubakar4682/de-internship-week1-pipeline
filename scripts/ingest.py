@@ -13,7 +13,7 @@ import pandas as pd
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+# Load environment variables from .env file.
 load_dotenv()
 
 # ─── Config ───────────────────────────────────────────────────────────────────
@@ -30,7 +30,6 @@ RAW_CURRENCY_DIR  = f"data/raw/api_currency/{TODAY}"
 # ─── Logging setup ────────────────────────────────────────────────────────────
 os.makedirs("logs", exist_ok=True)
 os.makedirs(RAW_CURRENCY_DIR, exist_ok=True)
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",

@@ -1874,3 +1874,24 @@
 [2026-03-06T21:37:17.036+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:37:17.035+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2026-03-06T21:37:17.058+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:37:17.058+0000] {dag.py:3820} INFO - Setting next_dagrun for storypoints_etl_week2 to 2026-03-06T09:00:00+00:00, run_after=2026-03-07T09:00:00+00:00
 [2026-03-06T21:37:17.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_week2_dag.py took 0.449 seconds
+[2026-03-06T21:37:47.373+0000] {processor.py:161} INFO - Started process (PID=30787) to work on /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:37:47.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_week2_dag.py for tasks to queue
+[2026-03-06T21:37:47.375+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:37:47.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:37:47.700+0000] {processor.py:840} INFO - DAG(s) 'storypoints_etl_week2' retrieved from /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:37:47.736+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:37:47.735+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-06T21:37:47.766+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:37:47.766+0000] {dag.py:3820} INFO - Setting next_dagrun for storypoints_etl_week2 to 2026-03-06T09:00:00+00:00, run_after=2026-03-07T09:00:00+00:00
+[2026-03-06T21:37:47.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_week2_dag.py took 0.424 seconds
+[2026-03-06T21:38:17.916+0000] {processor.py:161} INFO - Started process (PID=30844) to work on /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:38:17.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_week2_dag.py for tasks to queue
+[2026-03-06T21:38:17.919+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:38:17.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:38:18.412+0000] {processor.py:840} INFO - DAG(s) 'storypoints_etl_week2' retrieved from /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:38:18.472+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:38:18.470+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-06T21:38:18.528+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:38:18.528+0000] {dag.py:3820} INFO - Setting next_dagrun for storypoints_etl_week2 to 2026-03-06T09:00:00+00:00, run_after=2026-03-07T09:00:00+00:00
+[2026-03-06T21:38:18.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_week2_dag.py took 0.650 seconds
+[2026-03-06T21:38:48.682+0000] {processor.py:161} INFO - Started process (PID=30901) to work on /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:38:48.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_week2_dag.py for tasks to queue
+[2026-03-06T21:38:48.687+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:38:48.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:38:49.246+0000] {processor.py:840} INFO - DAG(s) 'storypoints_etl_week2' retrieved from /opt/airflow/dags/etl_week2_dag.py
+[2026-03-06T21:38:49.300+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:38:49.299+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-06T21:38:49.341+0000] {logging_mixin.py:188} INFO - [2026-03-06T21:38:49.341+0000] {dag.py:3820} INFO - Setting next_dagrun for storypoints_etl_week2 to 2026-03-06T09:00:00+00:00, run_after=2026-03-07T09:00:00+00:00
+[2026-03-06T21:38:49.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_week2_dag.py took 0.693 seconds
