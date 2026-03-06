@@ -1,0 +1,192 @@
+[2026-03-04T19:01:07.437+0000] {processor.py:161} INFO - Started process (PID=53662) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:01:07.440+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:01:07.441+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:07.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:01:07.442+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:07.442+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:01:07.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:01:07.506+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.070 seconds
+[2026-03-04T19:03:10.252+0000] {processor.py:161} INFO - Started process (PID=55321) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:03:10.255+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:03:10.257+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:10.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:03:10.258+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:10.258+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:03:10.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:03:10.310+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.059 seconds
+[2026-03-04T19:04:44.706+0000] {processor.py:161} INFO - Started process (PID=56628) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:04:44.709+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:04:44.710+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:44.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:04:44.712+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:44.711+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:04:44.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:04:44.763+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2026-03-04T19:06:16.953+0000] {processor.py:161} INFO - Started process (PID=57488) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:06:16.956+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:06:16.958+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:16.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:06:16.958+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:16.958+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:06:16.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:06:17.011+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2026-03-04T19:07:33.308+0000] {processor.py:161} INFO - Started process (PID=58226) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:07:33.310+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:07:33.312+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:33.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:07:33.313+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:33.313+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:07:33.313+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:07:33.363+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T19:08:49.814+0000] {processor.py:161} INFO - Started process (PID=58957) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:08:49.816+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:08:49.818+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:49.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:08:49.818+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:49.818+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:08:49.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:08:49.869+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T19:10:14.751+0000] {processor.py:161} INFO - Started process (PID=59776) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:10:14.755+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:10:14.756+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:14.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:10:14.758+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:14.758+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:10:14.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:10:14.827+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.077 seconds
+[2026-03-04T19:11:35.472+0000] {processor.py:161} INFO - Started process (PID=60543) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:11:35.475+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:11:35.476+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:35.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:11:35.477+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:35.477+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:11:35.477+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:11:35.543+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.072 seconds
+[2026-03-04T19:32:59.877+0000] {processor.py:161} INFO - Started process (PID=74128) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:32:59.880+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:32:59.882+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:32:59.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:32:59.883+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:32:59.883+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:32:59.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:32:59.940+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.064 seconds
+[2026-03-04T19:35:37.974+0000] {processor.py:161} INFO - Started process (PID=75780) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:35:37.978+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:35:37.979+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:35:37.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:35:37.980+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:35:37.980+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:35:37.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:35:38.045+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.072 seconds
+[2026-03-04T19:37:30.564+0000] {processor.py:161} INFO - Started process (PID=76888) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:37:30.566+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:37:30.568+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:30.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:37:30.569+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:30.569+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:37:30.569+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:37:30.621+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2026-03-04T19:38:49.526+0000] {processor.py:161} INFO - Started process (PID=77644) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:38:49.529+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:38:49.530+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:49.530+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:38:49.531+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:49.531+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:38:49.531+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:38:49.583+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2026-03-04T19:40:03.223+0000] {processor.py:161} INFO - Started process (PID=78346) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:40:03.225+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:40:03.227+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:03.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:40:03.228+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:03.227+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:40:03.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:40:03.279+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2026-03-04T19:41:17.425+0000] {processor.py:161} INFO - Started process (PID=79044) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:41:17.428+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:41:17.429+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:17.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:41:17.430+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:17.430+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:41:17.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:41:17.481+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2026-03-04T19:42:31.421+0000] {processor.py:161} INFO - Started process (PID=79740) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:42:31.423+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:42:31.424+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:31.424+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:42:31.425+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:31.425+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:42:31.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:42:31.477+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2026-03-04T19:43:45.046+0000] {processor.py:161} INFO - Started process (PID=80430) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:43:45.050+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:43:45.051+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:45.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:43:45.052+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:45.052+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:43:45.052+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:43:45.103+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2026-03-04T19:44:58.942+0000] {processor.py:161} INFO - Started process (PID=81128) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:44:58.945+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:44:58.946+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:58.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:44:58.947+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:58.947+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:44:58.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:44:58.999+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2026-03-04T19:46:12.416+0000] {processor.py:161} INFO - Started process (PID=81822) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:46:12.419+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:46:12.420+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:12.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:46:12.421+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:12.421+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:46:12.421+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:46:12.475+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.059 seconds
+[2026-03-04T19:47:28.074+0000] {processor.py:161} INFO - Started process (PID=82546) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:47:28.077+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T19:47:28.079+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:47:28.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:47:28.080+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:47:28.080+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T19:47:28.080+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T19:47:28.141+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.068 seconds
+[2026-03-04T20:04:29.975+0000] {processor.py:161} INFO - Started process (PID=83269) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:04:29.978+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:04:29.980+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:29.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:04:29.981+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:29.980+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:04:29.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:04:30.025+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.051 seconds
+[2026-03-04T20:13:38.558+0000] {processor.py:161} INFO - Started process (PID=84145) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:13:38.561+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:13:38.562+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:38.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:13:38.564+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:38.564+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:13:38.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:13:38.629+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.072 seconds
+[2026-03-04T20:14:58.037+0000] {processor.py:161} INFO - Started process (PID=84879) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:14:58.039+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:14:58.041+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:58.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:14:58.042+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:58.042+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:14:58.042+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:14:58.092+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T20:23:04.993+0000] {processor.py:161} INFO - Started process (PID=85615) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:23:04.996+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:23:04.998+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:04.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:23:04.999+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:04.999+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:23:05.000+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:23:05.062+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.070 seconds
+[2026-03-04T20:24:35.640+0000] {processor.py:161} INFO - Started process (PID=86464) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:24:35.642+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:24:35.643+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:35.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:24:35.644+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:35.644+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:24:35.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:24:35.695+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T20:29:14.984+0000] {processor.py:161} INFO - Started process (PID=87197) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:29:14.987+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:29:14.988+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:14.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:29:14.989+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:14.989+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:29:14.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:29:15.039+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2026-03-04T20:48:26.243+0000] {processor.py:161} INFO - Started process (PID=87996) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:48:26.245+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T20:48:26.247+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:26.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:48:26.248+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:26.247+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T20:48:26.248+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T20:48:26.298+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T22:17:09.677+0000] {processor.py:161} INFO - Started process (PID=88759) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:17:09.679+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T22:17:09.680+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:09.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:17:09.681+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:09.681+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T22:17:09.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:17:09.732+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T22:18:49.464+0000] {processor.py:161} INFO - Started process (PID=89705) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:18:49.466+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T22:18:49.468+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:49.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:18:49.469+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:49.469+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T22:18:49.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:18:49.520+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2026-03-04T22:32:34.829+0000] {processor.py:161} INFO - Started process (PID=90421) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:32:34.831+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T22:32:34.832+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:34.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:32:34.833+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:34.833+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T22:32:34.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T22:32:34.880+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2026-03-04T23:06:49.788+0000] {processor.py:161} INFO - Started process (PID=91173) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:06:49.792+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T23:06:49.793+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:49.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:06:49.794+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:49.794+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T23:06:49.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:06:49.845+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2026-03-04T23:08:02.530+0000] {processor.py:161} INFO - Started process (PID=91865) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:08:02.533+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T23:08:02.534+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:08:02.534+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:08:02.535+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:08:02.535+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T23:08:02.535+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:08:02.585+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2026-03-04T23:20:33.448+0000] {processor.py:161} INFO - Started process (PID=92583) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:20:33.451+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2026-03-04T23:20:33.452+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:33.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:20:33.453+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:33.453+0000] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2026-03-04T23:20:33.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2026-03-04T23:20:33.504+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds

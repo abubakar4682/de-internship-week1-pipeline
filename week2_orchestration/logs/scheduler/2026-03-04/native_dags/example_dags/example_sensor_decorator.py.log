@@ -1,0 +1,151 @@
+[2026-03-04T19:02:08.225+0000] {processor.py:161} INFO - Started process (PID=54731) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:02:08.228+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:02:08.229+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:02:08.254+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:02:08.377+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.377+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2026-03-04T19:02:08.382+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.382+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2026-03-04T19:02:08.386+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.386+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2026-03-04T19:02:08.386+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.386+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:02:08.392+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.392+0000] {dag.py:3055} INFO - Creating ORM DAG for example_sensor_decorator
+[2026-03-04T19:02:08.393+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:08.393+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:02:08.403+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.179 seconds
+[2026-03-04T19:04:09.190+0000] {processor.py:161} INFO - Started process (PID=55879) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:04:09.193+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:04:09.194+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:09.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:04:09.220+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:04:09.287+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:09.287+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:04:09.293+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:09.293+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:04:09.305+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.117 seconds
+[2026-03-04T19:05:46.591+0000] {processor.py:161} INFO - Started process (PID=57198) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:05:46.594+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:05:46.595+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:46.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:05:46.619+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:05:46.685+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:46.684+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:05:46.690+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:46.690+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:05:46.703+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.112 seconds
+[2026-03-04T19:08:17.526+0000] {processor.py:161} INFO - Started process (PID=58648) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:08:17.528+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:08:17.530+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:17.530+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:08:17.552+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:08:17.618+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:17.618+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:08:17.624+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:17.624+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:08:17.637+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.112 seconds
+[2026-03-04T19:11:04.243+0000] {processor.py:161} INFO - Started process (PID=60239) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:11:04.246+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:11:04.247+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:04.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:11:04.272+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:11:04.337+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:04.337+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:11:04.343+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:04.343+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:11:04.356+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.114 seconds
+[2026-03-04T19:33:59.836+0000] {processor.py:161} INFO - Started process (PID=74663) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:33:59.839+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:33:59.840+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:59.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:33:59.867+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:33:59.935+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:59.934+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:33:59.940+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:59.940+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:33:59.953+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.119 seconds
+[2026-03-04T19:36:34.420+0000] {processor.py:161} INFO - Started process (PID=76362) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:36:34.423+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:36:34.426+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:34.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:36:34.451+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:36:34.514+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:34.514+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:36:34.519+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:34.519+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:36:34.529+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.110 seconds
+[2026-03-04T19:38:23.878+0000] {processor.py:161} INFO - Started process (PID=77398) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:38:23.881+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:38:23.883+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:23.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:38:23.908+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:38:23.971+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:23.971+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:38:23.978+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:23.978+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:38:23.992+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.114 seconds
+[2026-03-04T19:40:51.589+0000] {processor.py:161} INFO - Started process (PID=78803) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:40:51.591+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:40:51.592+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:51.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:40:51.615+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:40:51.680+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:51.679+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:40:51.685+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:51.685+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:40:51.698+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.110 seconds
+[2026-03-04T19:43:18.763+0000] {processor.py:161} INFO - Started process (PID=80182) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:43:18.765+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:43:18.767+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:18.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:43:18.791+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:43:18.856+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:18.855+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:43:18.861+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:18.861+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:43:18.872+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.110 seconds
+[2026-03-04T19:45:46.546+0000] {processor.py:161} INFO - Started process (PID=81581) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:45:46.548+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T19:45:46.550+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:46.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:45:46.574+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T19:45:46.640+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:46.640+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:45:46.646+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:46.646+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T19:45:46.659+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.114 seconds
+[2026-03-04T20:00:27.143+0000] {processor.py:161} INFO - Started process (PID=83013) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:00:27.146+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T20:00:27.147+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:00:27.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:00:27.171+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:00:27.236+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:00:27.236+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:00:27.242+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:00:27.241+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T20:00:27.254+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.111 seconds
+[2026-03-04T20:12:59.022+0000] {processor.py:161} INFO - Started process (PID=83776) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:12:59.025+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T20:12:59.026+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:12:59.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:12:59.052+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:12:59.117+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:12:59.116+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:12:59.123+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:12:59.123+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T20:12:59.135+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.114 seconds
+[2026-03-04T20:14:29.635+0000] {processor.py:161} INFO - Started process (PID=84617) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:14:29.639+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T20:14:29.641+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:29.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:14:29.666+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:14:29.731+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:29.731+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:14:29.737+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:29.737+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T20:14:29.749+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.114 seconds
+[2026-03-04T20:23:55.573+0000] {processor.py:161} INFO - Started process (PID=86089) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:23:55.576+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T20:23:55.577+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:55.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:23:55.600+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:23:55.661+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:55.661+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:23:55.667+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:55.667+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T20:23:55.679+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.108 seconds
+[2026-03-04T20:25:26.268+0000] {processor.py:161} INFO - Started process (PID=86940) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:25:26.270+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T20:25:26.272+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:25:26.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:25:26.297+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:25:26.361+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:25:26.360+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:25:26.366+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:25:26.366+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T20:25:26.378+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.111 seconds
+[2026-03-04T20:46:04.119+0000] {processor.py:161} INFO - Started process (PID=87669) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:46:04.121+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T20:46:04.122+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:46:04.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:46:04.146+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T20:46:04.203+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:46:04.202+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:46:04.208+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:46:04.208+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T20:46:04.221+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.103 seconds
+[2026-03-04T22:05:19.535+0000] {processor.py:161} INFO - Started process (PID=88481) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:05:19.537+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T22:05:19.538+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:19.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:05:19.559+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:05:19.616+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:19.616+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:05:19.621+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:19.621+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T22:05:19.632+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.098 seconds
+[2026-03-04T22:17:58.996+0000] {processor.py:161} INFO - Started process (PID=89226) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:17:58.999+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T22:17:59.000+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:59.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:17:59.023+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:17:59.089+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:59.088+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:17:59.094+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:59.094+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T22:17:59.107+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.111 seconds
+[2026-03-04T22:32:11.980+0000] {processor.py:161} INFO - Started process (PID=90197) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:32:11.983+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T22:32:11.984+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:11.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:32:12.008+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T22:32:12.070+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:12.069+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:32:12.076+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:12.076+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T22:32:12.091+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.111 seconds
+[2026-03-04T23:07:39.064+0000] {processor.py:161} INFO - Started process (PID=91644) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T23:07:39.068+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-03-04T23:07:39.069+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:39.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T23:07:39.095+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-03-04T23:07:39.159+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:39.159+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:07:39.165+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:39.165+0000] {dag.py:3820} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-03-04T23:07:39.180+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.117 seconds

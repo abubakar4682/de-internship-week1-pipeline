@@ -1,0 +1,391 @@
+[2026-03-04T19:02:55.464+0000] {processor.py:161} INFO - Started process (PID=55183) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:02:55.467+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:02:55.468+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:55.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:02:55.492+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:55.490+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:02:55.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:02:55.553+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.090 seconds
+[2026-03-04T19:06:03.673+0000] {processor.py:161} INFO - Started process (PID=57363) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:06:03.676+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:06:03.678+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:03.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:06:03.699+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:03.698+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:06:03.699+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:06:03.751+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2026-03-04T19:08:36.833+0000] {processor.py:161} INFO - Started process (PID=58833) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:08:36.835+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:08:36.837+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:36.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:08:36.856+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:36.855+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:08:36.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:08:36.909+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2026-03-04T19:11:22.376+0000] {processor.py:161} INFO - Started process (PID=60418) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:11:22.378+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:11:22.380+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:22.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:11:22.402+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:22.401+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:11:22.403+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:11:22.455+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2026-03-04T19:34:51.603+0000] {processor.py:161} INFO - Started process (PID=75325) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:34:51.609+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:34:51.611+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:51.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:34:51.645+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:51.644+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:34:51.646+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:34:51.720+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.119 seconds
+[2026-03-04T19:37:17.491+0000] {processor.py:161} INFO - Started process (PID=76759) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:37:17.493+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:37:17.494+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:17.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:37:17.514+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:17.513+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:37:17.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:37:17.566+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.076 seconds
+[2026-03-04T19:39:50.894+0000] {processor.py:161} INFO - Started process (PID=78232) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:39:50.898+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:39:50.899+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:50.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:39:50.922+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:50.921+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:39:50.923+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:39:50.976+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2026-03-04T19:42:18.352+0000] {processor.py:161} INFO - Started process (PID=79615) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:42:18.355+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:42:18.357+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:18.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:42:18.378+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:18.377+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:42:18.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:42:18.432+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2026-03-04T19:44:45.995+0000] {processor.py:161} INFO - Started process (PID=81004) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:44:45.998+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:44:45.999+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:45.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:44:46.021+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:46.019+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:44:46.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:44:46.067+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.072 seconds
+[2026-03-04T19:47:14.442+0000] {processor.py:161} INFO - Started process (PID=82412) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:47:14.445+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T19:47:14.446+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:47:14.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:47:14.466+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:47:14.465+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T19:47:14.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T19:47:14.522+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2026-03-04T20:13:22.641+0000] {processor.py:161} INFO - Started process (PID=83992) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:13:22.645+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T20:13:22.647+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:22.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:13:22.677+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:22.675+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T20:13:22.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:13:22.743+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.104 seconds
+[2026-03-04T20:22:50.964+0000] {processor.py:161} INFO - Started process (PID=85484) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:22:50.966+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T20:22:50.968+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:22:50.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:22:50.989+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:22:50.988+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T20:22:50.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:22:51.041+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2026-03-04T20:29:01.816+0000] {processor.py:161} INFO - Started process (PID=87072) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:29:01.820+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T20:29:01.822+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:01.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:29:01.848+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:01.847+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T20:29:01.849+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T20:29:01.918+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.103 seconds
+[2026-03-04T22:05:34.013+0000] {processor.py:161} INFO - Started process (PID=88620) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T22:05:34.015+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T22:05:34.016+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:34.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T22:05:34.035+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:34.034+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T22:05:34.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T22:05:34.087+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.075 seconds
+[2026-03-04T22:18:40.538+0000] {processor.py:161} INFO - Started process (PID=89621) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T22:18:40.540+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T22:18:40.542+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:40.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T22:18:40.563+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:40.562+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T22:18:40.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T22:18:40.616+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.079 seconds
+[2026-03-04T23:06:40.977+0000] {processor.py:161} INFO - Started process (PID=91089) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T23:06:40.979+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T23:06:40.981+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:40.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T23:06:41.002+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:41.001+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T23:06:41.003+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T23:06:41.054+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2026-03-04T23:20:24.699+0000] {processor.py:161} INFO - Started process (PID=92497) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T23:20:24.702+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-04T23:20:24.703+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:24.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T23:20:24.724+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:24.723+0000] {dagbag.py:348} ERROR - Failed to import: /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 581, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-04T23:20:24.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-04T23:20:24.778+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.079 seconds

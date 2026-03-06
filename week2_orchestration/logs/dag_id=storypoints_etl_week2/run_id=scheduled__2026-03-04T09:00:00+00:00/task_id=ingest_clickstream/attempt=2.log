@@ -1,0 +1,28 @@
+[2026-03-05T23:01:50.559+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storypoints_etl_week2.ingest_clickstream scheduled__2026-03-04T09:00:00+00:00 [queued]>
+[2026-03-05T23:01:50.572+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storypoints_etl_week2.ingest_clickstream scheduled__2026-03-04T09:00:00+00:00 [queued]>
+[2026-03-05T23:01:50.574+0000] {taskinstance.py:2171} INFO - Starting attempt 2 of 4
+[2026-03-05T23:01:50.592+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): ingest_clickstream> on 2026-03-04 09:00:00+00:00
+[2026-03-05T23:01:50.604+0000] {standard_task_runner.py:60} INFO - Started process 1636 to run task
+[2026-03-05T23:01:50.615+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'storypoints_etl_week2', 'ingest_clickstream', 'scheduled__2026-03-04T09:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/etl_week2_dag.py', '--cfg-path', '/tmp/tmp1oqnyc45']
+[2026-03-05T23:01:50.617+0000] {standard_task_runner.py:88} INFO - Job 15: Subtask ingest_clickstream
+[2026-03-05T23:01:50.702+0000] {task_command.py:423} INFO - Running <TaskInstance: storypoints_etl_week2.ingest_clickstream scheduled__2026-03-04T09:00:00+00:00 [running]> on host a47d4c5c7033
+[2026-03-05T23:01:50.821+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='admin@storypoints.com' AIRFLOW_CTX_DAG_OWNER='storypoints_de' AIRFLOW_CTX_DAG_ID='storypoints_etl_week2' AIRFLOW_CTX_TASK_ID='ingest_clickstream' AIRFLOW_CTX_EXECUTION_DATE='2026-03-04T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-04T09:00:00+00:00'
+[2026-03-05T23:01:50.831+0000] {etl_week2_dag.py:73} INFO - ============================================================
+[2026-03-05T23:01:50.832+0000] {etl_week2_dag.py:74} INFO - TASK: ingest_clickstream
+[2026-03-05T23:01:50.833+0000] {etl_week2_dag.py:75} INFO - ============================================================
+[2026-03-05T23:01:50.834+0000] {etl_week2_dag.py:428} WARNING - 🚨 ALERT logged: MISSING FILE: /opt/***/data/raw/clickstream/clickstream.csv
+[2026-03-05T23:01:50.834+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 428, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_week2_dag.py", line 79, in ingest_clickstream
+    raise FileNotFoundError(f"Clickstream file not found: {RAW_CLICKSTREAM}")
+FileNotFoundError: Clickstream file not found: /opt/***/data/raw/clickstream/clickstream.csv
+[2026-03-05T23:01:50.848+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=storypoints_etl_week2, task_id=ingest_clickstream, execution_date=20260304T090000, start_date=20260305T230150, end_date=20260305T230150
+[2026-03-05T23:01:50.869+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 15 for task ingest_clickstream (Clickstream file not found: /opt/***/data/raw/clickstream/clickstream.csv; 1636)
+[2026-03-05T23:01:50.917+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-03-05T23:01:50.969+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

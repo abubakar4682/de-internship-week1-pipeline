@@ -1,0 +1,156 @@
+[2026-03-04T19:02:13.397+0000] {processor.py:161} INFO - Started process (PID=54782) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:02:13.399+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:02:13.400+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:02:13.423+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.423+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:02:13.425+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:02:13.534+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.534+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2026-03-04T19:02:13.539+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.538+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2026-03-04T19:02:13.541+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.541+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2026-03-04T19:02:13.541+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.541+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:02:13.546+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.546+0000] {dag.py:3055} INFO - Creating ORM DAG for example_python_decorator
+[2026-03-04T19:02:13.547+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:13.547+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:02:13.555+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.159 seconds
+[2026-03-04T19:04:14.459+0000] {processor.py:161} INFO - Started process (PID=55927) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:04:14.462+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:04:14.464+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:14.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:04:14.491+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:14.491+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:04:14.493+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:04:14.565+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:14.564+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:04:14.572+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:14.571+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:04:14.586+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.127 seconds
+[2026-03-04T19:07:08.760+0000] {processor.py:161} INFO - Started process (PID=57992) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:07:08.763+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:07:08.764+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:08.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:07:08.790+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:08.790+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:07:08.791+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:07:08.851+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:08.850+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:07:08.857+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:08.856+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:07:08.869+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.110 seconds
+[2026-03-04T19:09:48.070+0000] {processor.py:161} INFO - Started process (PID=59514) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:09:48.073+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:09:48.074+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:48.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:09:48.099+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:48.099+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:09:48.101+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:09:48.161+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:48.161+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:09:48.167+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:48.167+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:09:48.179+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.110 seconds
+[2026-03-04T19:12:31.995+0000] {processor.py:161} INFO - Started process (PID=61080) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:12:31.998+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:12:31.999+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:31.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:12:32.026+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:32.026+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:12:32.028+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:12:32.093+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:32.093+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:12:32.100+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:32.100+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:12:32.113+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.119 seconds
+[2026-03-04T19:34:05.249+0000] {processor.py:161} INFO - Started process (PID=74710) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:34:05.251+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:34:05.253+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:05.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:34:05.278+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:05.278+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:34:05.279+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:34:05.338+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:05.338+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:34:05.345+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:05.345+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:34:05.357+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.110 seconds
+[2026-03-04T19:36:39.312+0000] {processor.py:161} INFO - Started process (PID=76409) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:36:39.315+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:36:39.316+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:39.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:36:39.342+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:39.342+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:36:39.343+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:36:39.404+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:39.404+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:36:39.410+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:39.410+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:36:39.422+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.111 seconds
+[2026-03-04T19:38:27.992+0000] {processor.py:161} INFO - Started process (PID=77437) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:38:27.995+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:38:27.997+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:27.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:38:28.022+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:28.021+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:38:28.023+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:38:28.083+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:28.083+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:38:28.089+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:28.089+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:38:28.101+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.110 seconds
+[2026-03-04T19:40:55.597+0000] {processor.py:161} INFO - Started process (PID=78840) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:40:55.599+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:40:55.601+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:55.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:40:55.626+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:55.625+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:40:55.627+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:40:55.687+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:55.687+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:40:55.694+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:55.693+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:40:55.706+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.110 seconds
+[2026-03-04T19:43:23.238+0000] {processor.py:161} INFO - Started process (PID=80225) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:43:23.240+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:43:23.242+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:23.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:43:23.265+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:23.265+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:43:23.267+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:43:23.328+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:23.327+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:43:23.333+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:23.333+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:43:23.346+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.109 seconds
+[2026-03-04T19:45:50.594+0000] {processor.py:161} INFO - Started process (PID=81617) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:45:50.596+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T19:45:50.597+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:50.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:45:50.622+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:50.622+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T19:45:50.623+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T19:45:50.680+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:50.680+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:45:50.686+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:50.686+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T19:45:50.699+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.106 seconds
+[2026-03-04T20:04:08.273+0000] {processor.py:161} INFO - Started process (PID=83059) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:04:08.276+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T20:04:08.277+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:08.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:04:08.302+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:08.302+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T20:04:08.304+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:04:08.360+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:08.360+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:04:08.365+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:08.365+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T20:04:08.377+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.104 seconds
+[2026-03-04T20:14:34.573+0000] {processor.py:161} INFO - Started process (PID=84662) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:14:34.575+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T20:14:34.576+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:34.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:14:34.599+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:34.598+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T20:14:34.600+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:14:34.659+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:34.659+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:14:34.665+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:34.665+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T20:14:34.677+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.105 seconds
+[2026-03-04T20:23:59.652+0000] {processor.py:161} INFO - Started process (PID=86127) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:23:59.654+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T20:23:59.655+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:59.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:23:59.677+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:59.676+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T20:23:59.678+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:23:59.735+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:59.735+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:23:59.740+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:59.740+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T20:23:59.753+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.102 seconds
+[2026-03-04T20:28:52.937+0000] {processor.py:161} INFO - Started process (PID=86981) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:28:52.939+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T20:28:52.940+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:28:52.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:28:52.963+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:28:52.963+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T20:28:52.964+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T20:28:53.020+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:28:53.020+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:28:53.026+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:28:53.026+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T20:28:53.038+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.102 seconds
+[2026-03-04T22:05:23.530+0000] {processor.py:161} INFO - Started process (PID=88520) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:05:23.532+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T22:05:23.533+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:23.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:05:23.558+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:23.558+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T22:05:23.559+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:05:23.614+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:23.614+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:05:23.619+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:23.619+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T22:05:23.631+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.103 seconds
+[2026-03-04T22:18:03.893+0000] {processor.py:161} INFO - Started process (PID=89273) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:18:03.896+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T22:18:03.897+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:03.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:18:03.923+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:03.922+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T22:18:03.924+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:18:03.985+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:03.985+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:18:03.991+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:03.991+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T22:18:04.004+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.111 seconds
+[2026-03-04T22:32:16.056+0000] {processor.py:161} INFO - Started process (PID=90237) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:32:16.058+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T22:32:16.059+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:16.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:32:16.080+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:16.080+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T22:32:16.082+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T22:32:16.139+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:16.139+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:32:16.145+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:16.145+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T22:32:16.157+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.102 seconds
+[2026-03-04T23:07:43.168+0000] {processor.py:161} INFO - Started process (PID=91681) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T23:07:43.171+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-03-04T23:07:43.172+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:43.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T23:07:43.198+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:43.198+0000] {example_python_decorator.py:79} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-03-04T23:07:43.199+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-03-04T23:07:43.258+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:43.258+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:07:43.264+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:43.264+0000] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-03-04T23:07:43.276+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.108 seconds

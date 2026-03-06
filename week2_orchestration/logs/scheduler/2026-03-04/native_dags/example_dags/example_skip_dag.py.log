@@ -1,0 +1,221 @@
+[2026-03-04T19:01:53.948+0000] {processor.py:161} INFO - Started process (PID=54598) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:01:53.950+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:01:53.952+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:53.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:01:53.958+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:01:54.075+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:54.075+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2026-03-04T19:01:54.081+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:54.081+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2026-03-04T19:01:54.084+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:54.084+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2026-03-04T19:01:54.084+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:54.084+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:01:54.090+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:54.090+0000] {dag.py:3055} INFO - Creating ORM DAG for example_skip_dag
+[2026-03-04T19:01:54.096+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:54.096+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:01:54.106+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.160 seconds
+[2026-03-04T19:03:53.651+0000] {processor.py:161} INFO - Started process (PID=55734) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:03:53.654+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:03:53.655+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:53.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:03:53.660+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:03:53.742+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:53.741+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:03:53.758+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:53.757+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:03:53.785+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.135 seconds
+[2026-03-04T19:05:30.115+0000] {processor.py:161} INFO - Started process (PID=57052) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:05:30.118+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:05:30.120+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:30.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:05:30.127+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:05:30.256+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:30.256+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:05:30.273+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:30.273+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:05:30.291+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.177 seconds
+[2026-03-04T19:06:55.727+0000] {processor.py:161} INFO - Started process (PID=57866) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:06:55.730+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:06:55.731+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:55.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:06:55.737+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:06:55.798+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:55.798+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:06:55.808+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:55.808+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:06:55.820+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.094 seconds
+[2026-03-04T19:08:11.053+0000] {processor.py:161} INFO - Started process (PID=58587) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:08:11.055+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:08:11.057+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:11.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:08:11.062+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:08:11.123+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:11.123+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:08:11.133+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:08:11.133+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:08:11.144+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T19:09:31.921+0000] {processor.py:161} INFO - Started process (PID=59355) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:09:31.926+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:09:31.928+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:31.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:09:31.939+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:09:32.058+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:32.058+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:09:32.075+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:32.074+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:09:32.092+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.172 seconds
+[2026-03-04T19:10:54.670+0000] {processor.py:161} INFO - Started process (PID=60142) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:10:54.673+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:10:54.674+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:54.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:10:54.680+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:10:54.737+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:54.737+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:10:54.748+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:54.748+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:10:54.757+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.088 seconds
+[2026-03-04T19:12:13.862+0000] {processor.py:161} INFO - Started process (PID=60916) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:12:13.865+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:12:13.866+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:13.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:12:13.872+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:12:13.932+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:13.932+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:12:13.942+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:12:13.942+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:12:13.954+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T19:33:44.861+0000] {processor.py:161} INFO - Started process (PID=74541) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:33:44.864+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:33:44.865+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:44.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:33:44.871+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:33:44.939+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:44.938+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:33:44.950+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:44.950+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:33:44.968+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds
+[2026-03-04T19:36:21.232+0000] {processor.py:161} INFO - Started process (PID=76236) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:36:21.237+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:36:21.239+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:21.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:36:21.246+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:36:21.332+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:21.331+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:36:21.345+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:21.345+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:36:21.358+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.128 seconds
+[2026-03-04T19:38:08.906+0000] {processor.py:161} INFO - Started process (PID=77247) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:38:08.909+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:38:08.910+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:08.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:38:08.916+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:38:08.981+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:08.981+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:38:08.992+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:08.992+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:38:09.003+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.098 seconds
+[2026-03-04T19:39:27.281+0000] {processor.py:161} INFO - Started process (PID=78009) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:39:27.283+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:39:27.285+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:27.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:39:27.290+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:39:27.352+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:27.351+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:39:27.368+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:27.367+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:39:27.389+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.109 seconds
+[2026-03-04T19:40:40.217+0000] {processor.py:161} INFO - Started process (PID=78695) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:40:40.220+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:40:40.221+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:40.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:40:40.226+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:40:40.283+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:40.283+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:40:40.294+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:40.294+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:40:40.305+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.089 seconds
+[2026-03-04T19:41:53.918+0000] {processor.py:161} INFO - Started process (PID=79388) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:41:53.920+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:41:53.922+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:53.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:41:53.927+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:41:53.989+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:53.988+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:41:53.999+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:53.999+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:41:54.010+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T19:43:07.871+0000] {processor.py:161} INFO - Started process (PID=80081) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:43:07.873+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:43:07.875+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:07.874+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:43:07.880+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:43:07.940+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:07.940+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:43:07.950+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:07.950+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:43:07.963+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T19:44:20.935+0000] {processor.py:161} INFO - Started process (PID=80768) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:44:20.938+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:44:20.939+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:20.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:44:20.944+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:44:21.008+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:21.008+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:44:21.019+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:44:21.019+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:44:21.030+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.095 seconds
+[2026-03-04T19:45:35.235+0000] {processor.py:161} INFO - Started process (PID=81471) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:45:35.238+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:45:35.239+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:35.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:45:35.244+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:45:35.305+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:35.304+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:45:35.314+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:35.314+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:45:35.323+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.088 seconds
+[2026-03-04T19:46:49.938+0000] {processor.py:161} INFO - Started process (PID=82185) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:46:49.941+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T19:46:49.942+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:49.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:46:49.947+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T19:46:50.008+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:50.008+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:46:50.019+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:50.019+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:46:50.030+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T20:00:14.763+0000] {processor.py:161} INFO - Started process (PID=82894) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:00:14.766+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:00:14.767+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:00:14.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:00:14.773+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:00:14.833+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:00:14.832+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:00:14.842+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:00:14.842+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:00:14.852+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.089 seconds
+[2026-03-04T20:12:46.116+0000] {processor.py:161} INFO - Started process (PID=83656) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:12:46.118+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:12:46.120+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:12:46.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:12:46.126+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:12:46.188+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:12:46.187+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:12:46.198+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:12:46.198+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:12:46.208+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T20:14:16.625+0000] {processor.py:161} INFO - Started process (PID=84495) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:14:16.628+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:14:16.629+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:16.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:14:16.635+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:14:16.695+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:16.695+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:14:16.706+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:16.706+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:14:16.717+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T20:15:35.637+0000] {processor.py:161} INFO - Started process (PID=85228) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:15:35.640+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:15:35.642+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:15:35.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:15:35.647+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:15:35.707+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:15:35.707+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:15:35.717+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:15:35.717+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:15:35.727+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.090 seconds
+[2026-03-04T20:23:42.519+0000] {processor.py:161} INFO - Started process (PID=85969) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:23:42.522+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:23:42.523+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:42.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:23:42.529+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:23:42.587+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:42.587+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:23:42.598+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:42.597+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:23:42.609+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.091 seconds
+[2026-03-04T20:25:12.419+0000] {processor.py:161} INFO - Started process (PID=86808) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:25:12.421+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:25:12.423+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:25:12.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:25:12.428+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:25:12.491+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:25:12.491+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:25:12.502+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:25:12.502+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:25:12.513+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.094 seconds
+[2026-03-04T20:45:51.829+0000] {processor.py:161} INFO - Started process (PID=87547) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:45:51.831+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T20:45:51.832+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:45:51.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:45:51.838+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T20:45:51.900+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:45:51.900+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:45:51.910+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:45:51.910+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:45:51.921+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T22:05:07.293+0000] {processor.py:161} INFO - Started process (PID=88363) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:05:07.296+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T22:05:07.297+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:07.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:05:07.302+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:05:07.363+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:07.363+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:05:07.374+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:05:07.373+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T22:05:07.385+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T22:17:46.004+0000] {processor.py:161} INFO - Started process (PID=89104) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:17:46.007+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T22:17:46.008+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:46.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:17:46.013+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:17:46.071+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:46.071+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:17:46.080+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:46.080+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T22:17:46.090+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.087 seconds
+[2026-03-04T22:31:58.989+0000] {processor.py:161} INFO - Started process (PID=90068) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:31:58.991+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T22:31:58.992+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:31:58.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:31:58.997+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T22:31:59.058+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:31:59.058+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:31:59.068+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:31:59.068+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T22:31:59.079+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.091 seconds
+[2026-03-04T23:06:12.541+0000] {processor.py:161} INFO - Started process (PID=90811) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:06:12.544+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T23:06:12.545+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:12.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:06:12.549+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:06:12.610+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:12.609+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:06:12.620+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:06:12.620+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:06:12.630+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.091 seconds
+[2026-03-04T23:07:25.653+0000] {processor.py:161} INFO - Started process (PID=91515) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:07:25.655+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T23:07:25.657+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:25.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:07:25.662+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:07:25.724+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:25.723+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:07:25.734+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:25.734+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:07:25.745+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2026-03-04T23:19:35.125+0000] {processor.py:161} INFO - Started process (PID=92226) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:19:35.127+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-03-04T23:19:35.129+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:19:35.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:19:35.133+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-03-04T23:19:35.192+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:19:35.192+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:19:35.203+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:19:35.203+0000] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:19:35.214+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.089 seconds

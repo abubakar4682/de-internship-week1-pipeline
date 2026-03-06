@@ -1,0 +1,228 @@
+[2026-03-04T19:01:26.538+0000] {processor.py:161} INFO - Started process (PID=54330) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:01:26.541+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:01:26.542+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:01:26.548+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:01:26.666+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.665+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial
+[2026-03-04T19:01:26.671+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.671+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial
+[2026-03-04T19:01:26.674+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.674+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial
+[2026-03-04T19:01:26.674+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.674+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:01:26.682+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.682+0000] {dag.py:3055} INFO - Creating ORM DAG for tutorial
+[2026-03-04T19:01:26.687+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:01:26.687+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:01:26.697+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.159 seconds
+[2026-03-04T19:03:27.190+0000] {processor.py:161} INFO - Started process (PID=55480) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:03:27.194+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:03:27.195+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:27.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:03:27.200+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:03:27.263+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:27.262+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:03:27.273+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:03:27.273+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:03:27.284+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.095 seconds
+[2026-03-04T19:05:03.210+0000] {processor.py:161} INFO - Started process (PID=56806) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:05:03.213+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:05:03.214+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:03.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:05:03.220+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:05:03.280+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:03.279+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:05:03.290+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:05:03.290+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:05:03.307+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.097 seconds
+[2026-03-04T19:06:32.513+0000] {processor.py:161} INFO - Started process (PID=57647) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:06:32.515+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:06:32.517+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:32.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:06:32.522+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:06:32.580+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:32.579+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:06:32.589+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:06:32.589+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:06:32.599+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds
+[2026-03-04T19:07:48.018+0000] {processor.py:161} INFO - Started process (PID=58367) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:07:48.021+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:07:48.022+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:48.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:07:48.028+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:07:48.089+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:48.089+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:07:48.099+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:48.099+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:07:48.110+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-03-04T19:09:05.401+0000] {processor.py:161} INFO - Started process (PID=59114) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:09:05.404+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:09:05.405+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:05.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:09:05.411+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:09:05.472+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:05.472+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:09:05.483+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:05.483+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:09:05.494+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-03-04T19:10:30.670+0000] {processor.py:161} INFO - Started process (PID=59928) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:10:30.672+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:10:30.674+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:30.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:10:30.679+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:10:30.741+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:30.740+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:10:30.751+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:30.751+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:10:30.763+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-03-04T19:11:50.947+0000] {processor.py:161} INFO - Started process (PID=60693) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:11:50.950+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:11:50.951+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:50.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:11:50.957+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:11:51.017+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:51.017+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:11:51.027+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:11:51.027+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:11:51.038+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds
+[2026-03-04T19:33:18.508+0000] {processor.py:161} INFO - Started process (PID=74303) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:33:18.510+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:33:18.511+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:18.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:33:18.516+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:33:18.574+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:18.574+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:33:18.583+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:33:18.583+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:33:18.595+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2026-03-04T19:35:56.944+0000] {processor.py:161} INFO - Started process (PID=76007) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:35:56.946+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:35:56.948+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:35:56.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:35:56.953+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:35:57.015+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:35:57.015+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:35:57.026+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:35:57.026+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:35:57.037+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-03-04T19:37:45.586+0000] {processor.py:161} INFO - Started process (PID=77028) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:37:45.588+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:37:45.590+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:45.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:37:45.595+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:37:45.657+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:45.657+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:37:45.668+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:37:45.668+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:37:45.679+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-03-04T19:39:04.267+0000] {processor.py:161} INFO - Started process (PID=77785) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:39:04.270+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:39:04.271+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:04.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:39:04.277+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:39:04.349+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:04.349+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:39:04.363+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:39:04.363+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:39:04.376+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.110 seconds
+[2026-03-04T19:40:19.134+0000] {processor.py:161} INFO - Started process (PID=78495) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:40:19.137+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:40:19.138+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:19.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:40:19.143+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:40:19.201+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:19.201+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:40:19.212+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:40:19.212+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:40:19.223+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-03-04T19:41:32.004+0000] {processor.py:161} INFO - Started process (PID=79183) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:41:32.006+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:41:32.008+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:32.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:41:32.012+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:41:32.074+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:32.074+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:41:32.085+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:32.085+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:41:32.096+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-03-04T19:42:46.324+0000] {processor.py:161} INFO - Started process (PID=79879) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:42:46.326+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:42:46.328+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:46.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:42:46.333+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:42:46.396+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:46.396+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:42:46.406+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:42:46.406+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:42:46.418+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.095 seconds
+[2026-03-04T19:43:59.569+0000] {processor.py:161} INFO - Started process (PID=80567) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:43:59.572+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:43:59.573+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:59.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:43:59.578+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:43:59.641+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:59.641+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:43:59.652+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:59.651+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:43:59.663+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.095 seconds
+[2026-03-04T19:45:14.274+0000] {processor.py:161} INFO - Started process (PID=81272) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:45:14.276+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:45:14.278+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:14.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:45:14.282+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:45:14.341+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:14.341+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:45:14.352+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:14.351+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:45:14.363+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-03-04T19:46:27.826+0000] {processor.py:161} INFO - Started process (PID=81980) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:46:27.828+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:46:27.830+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:27.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:46:27.835+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:46:27.894+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:27.894+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:46:27.904+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:27.904+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:46:27.915+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-03-04T19:59:53.596+0000] {processor.py:161} INFO - Started process (PID=82686) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:59:53.599+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T19:59:53.601+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:59:53.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:59:53.606+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T19:59:53.664+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:59:53.664+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:59:53.674+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:59:53.674+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T19:59:53.686+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-03-04T20:04:45.059+0000] {processor.py:161} INFO - Started process (PID=83415) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:04:45.061+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:04:45.062+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:45.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:04:45.067+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:04:45.128+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:45.128+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:04:45.138+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:45.138+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:04:45.150+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-03-04T20:13:54.710+0000] {processor.py:161} INFO - Started process (PID=84286) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:13:54.713+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:13:54.714+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:54.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:13:54.719+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:13:54.780+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:54.780+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:13:54.790+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:13:54.790+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:13:54.801+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds
+[2026-03-04T20:15:13.510+0000] {processor.py:161} INFO - Started process (PID=85023) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:15:13.512+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:15:13.515+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:15:13.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:15:13.520+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:15:13.582+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:15:13.582+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:15:13.592+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:15:13.592+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:15:13.602+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-03-04T20:23:20.515+0000] {processor.py:161} INFO - Started process (PID=85759) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:23:20.518+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:23:20.520+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:20.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:23:20.525+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:23:20.587+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:20.587+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:23:20.597+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:23:20.597+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:23:20.608+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-03-04T20:24:50.407+0000] {processor.py:161} INFO - Started process (PID=86600) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:24:50.410+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:24:50.411+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:50.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:24:50.416+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:24:50.478+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:50.478+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:24:50.489+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:50.489+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:24:50.500+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-03-04T20:29:29.429+0000] {processor.py:161} INFO - Started process (PID=87337) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:29:29.431+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:29:29.432+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:29.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:29:29.437+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:29:29.494+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:29.494+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:29:29.503+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:29:29.503+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:29:29.513+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2026-03-04T20:48:40.886+0000] {processor.py:161} INFO - Started process (PID=88139) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:48:40.889+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T20:48:40.890+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:40.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:48:40.895+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T20:48:40.956+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:40.956+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:48:40.967+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:40.967+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T20:48:40.978+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds
+[2026-03-04T22:17:24.981+0000] {processor.py:161} INFO - Started process (PID=88905) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T22:17:24.983+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T22:17:24.984+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:24.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T22:17:24.989+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T22:17:25.041+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:25.041+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:17:25.051+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:17:25.051+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T22:17:25.062+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2026-03-04T22:19:03.925+0000] {processor.py:161} INFO - Started process (PID=89840) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T22:19:03.927+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T22:19:03.929+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:19:03.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T22:19:03.934+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T22:19:03.996+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:19:03.996+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:19:04.006+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:19:04.006+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T22:19:04.017+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-03-04T23:05:51.293+0000] {processor.py:161} INFO - Started process (PID=90607) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:05:51.296+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T23:05:51.297+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:05:51.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:05:51.303+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:05:51.366+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:05:51.366+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:05:51.376+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:05:51.376+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:05:51.387+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.095 seconds
+[2026-03-04T23:07:04.345+0000] {processor.py:161} INFO - Started process (PID=91312) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:07:04.348+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T23:07:04.349+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:04.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:07:04.354+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:07:04.414+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:04.414+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:07:04.425+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:04.425+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:07:04.436+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-03-04T23:19:14.308+0000] {processor.py:161} INFO - Started process (PID=92024) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:19:14.310+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T23:19:14.312+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:19:14.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:19:14.316+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:19:14.370+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:19:14.370+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:19:14.379+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:19:14.379+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:19:14.389+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2026-03-04T23:20:47.687+0000] {processor.py:161} INFO - Started process (PID=92722) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:20:47.689+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-03-04T23:20:47.691+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:47.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:20:47.695+0000] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2026-03-04T23:20:47.757+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:47.757+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:20:47.768+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:20:47.768+0000] {dag.py:3820} INFO - Setting next_dagrun for tutorial to 2026-03-03T00:00:00+00:00, run_after=2026-03-04T00:00:00+00:00
+[2026-03-04T23:20:47.779+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds

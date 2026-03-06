@@ -1,0 +1,19 @@
+[2026-03-06T21:30:50.254+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: storypoints_etl_week2.ingest_transactions manual__2026-03-06T21:30:47.462098+00:00 [queued]>
+[2026-03-06T21:30:50.274+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: storypoints_etl_week2.ingest_transactions manual__2026-03-06T21:30:47.462098+00:00 [queued]>
+[2026-03-06T21:30:50.277+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 4
+[2026-03-06T21:30:50.307+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): ingest_transactions> on 2026-03-06 21:30:47.462098+00:00
+[2026-03-06T21:30:50.318+0000] {standard_task_runner.py:60} INFO - Started process 4192 to run task
+[2026-03-06T21:30:50.323+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'storypoints_etl_week2', 'ingest_transactions', 'manual__2026-03-06T21:30:47.462098+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/etl_week2_dag.py', '--cfg-path', '/tmp/tmpuxgps0aw']
+[2026-03-06T21:30:50.325+0000] {standard_task_runner.py:88} INFO - Job 44: Subtask ingest_transactions
+[2026-03-06T21:30:50.397+0000] {task_command.py:423} INFO - Running <TaskInstance: storypoints_etl_week2.ingest_transactions manual__2026-03-06T21:30:47.462098+00:00 [running]> on host a47d4c5c7033
+[2026-03-06T21:30:50.517+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='admin@storypoints.com' AIRFLOW_CTX_DAG_OWNER='storypoints_de' AIRFLOW_CTX_DAG_ID='storypoints_etl_week2' AIRFLOW_CTX_TASK_ID='ingest_transactions' AIRFLOW_CTX_EXECUTION_DATE='2026-03-06T21:30:47.462098+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-06T21:30:47.462098+00:00'
+[2026-03-06T21:30:50.524+0000] {etl_week2_dag.py:108} INFO - ============================================================
+[2026-03-06T21:30:50.525+0000] {etl_week2_dag.py:109} INFO - TASK: ingest_transactions
+[2026-03-06T21:30:50.526+0000] {etl_week2_dag.py:110} INFO - ============================================================
+[2026-03-06T21:30:50.776+0000] {etl_week2_dag.py:123} INFO -    Chunk 1: 50,000 rows (total: 50,000)
+[2026-03-06T21:30:50.904+0000] {etl_week2_dag.py:123} INFO -    Chunk 2: 50,000 rows (total: 100,000)
+[2026-03-06T21:30:51.301+0000] {etl_week2_dag.py:130} INFO - ✅ Transactions ingested: 100,000 rows, 5 columns
+[2026-03-06T21:30:51.343+0000] {python.py:201} INFO - Done. Returned value was: 100000
+[2026-03-06T21:30:51.377+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=storypoints_etl_week2, task_id=ingest_transactions, execution_date=20260306T213047, start_date=20260306T213050, end_date=20260306T213051
+[2026-03-06T21:30:51.427+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-06T21:30:51.463+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

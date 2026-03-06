@@ -1,0 +1,187 @@
+[2026-03-04T19:02:25.221+0000] {processor.py:161} INFO - Started process (PID=54891) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:02:25.223+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:02:25.225+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:25.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:02:25.250+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:25.249+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:02:25.250+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:25.250+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:02:25.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:02:25.299+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2026-03-04T19:04:28.958+0000] {processor.py:161} INFO - Started process (PID=56475) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:04:28.961+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:04:28.963+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:28.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:04:28.988+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:28.988+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:04:28.988+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:28.988+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:04:28.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:04:29.040+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.083 seconds
+[2026-03-04T19:07:20.299+0000] {processor.py:161} INFO - Started process (PID=58102) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:07:20.302+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:07:20.303+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:20.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:07:20.327+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:20.326+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:07:20.327+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:20.327+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:07:20.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:07:20.377+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.079 seconds
+[2026-03-04T19:10:00.871+0000] {processor.py:161} INFO - Started process (PID=59642) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:10:00.873+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:10:00.875+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:00.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:10:00.901+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:00.901+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:10:00.902+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:10:00.902+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:10:00.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:10:00.952+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.082 seconds
+[2026-03-04T19:34:19.047+0000] {processor.py:161} INFO - Started process (PID=74822) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:34:19.050+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:34:19.052+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:19.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:34:19.077+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:19.077+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:34:19.078+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:19.078+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:34:19.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:34:19.131+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.085 seconds
+[2026-03-04T19:36:49.946+0000] {processor.py:161} INFO - Started process (PID=76507) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:36:49.949+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:36:49.950+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:49.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:36:49.974+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:49.973+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:36:49.974+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:49.974+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:36:49.974+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:36:50.027+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.081 seconds
+[2026-03-04T19:38:38.472+0000] {processor.py:161} INFO - Started process (PID=77537) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:38:38.475+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:38:38.476+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:38.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:38:38.500+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:38.499+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:38:38.500+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:38.500+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:38:38.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:38:38.550+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.079 seconds
+[2026-03-04T19:41:06.156+0000] {processor.py:161} INFO - Started process (PID=78940) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:41:06.158+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:41:06.159+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:06.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:41:06.179+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:06.179+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:41:06.179+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:06.179+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:41:06.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:41:06.231+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.076 seconds
+[2026-03-04T19:43:33.798+0000] {processor.py:161} INFO - Started process (PID=80324) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:43:33.800+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:43:33.801+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:33.801+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:43:33.824+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:33.823+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:43:33.824+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:33.824+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:43:33.824+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:43:33.875+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.078 seconds
+[2026-03-04T19:46:01.168+0000] {processor.py:161} INFO - Started process (PID=81716) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:46:01.171+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T19:46:01.172+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:01.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:46:01.197+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:01.197+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T19:46:01.197+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:46:01.197+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T19:46:01.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T19:46:01.247+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.079 seconds
+[2026-03-04T20:04:19.577+0000] {processor.py:161} INFO - Started process (PID=83168) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:04:19.579+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T20:04:19.581+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:19.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:04:19.604+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:19.603+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T20:04:19.604+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:19.604+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T20:04:19.604+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:04:19.651+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.075 seconds
+[2026-03-04T20:14:45.141+0000] {processor.py:161} INFO - Started process (PID=84760) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:14:45.144+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T20:14:45.145+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:45.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:14:45.169+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:45.169+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T20:14:45.169+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:45.169+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T20:14:45.170+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:14:45.221+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2026-03-04T20:24:11.119+0000] {processor.py:161} INFO - Started process (PID=86235) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:24:11.121+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T20:24:11.123+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:11.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:24:11.146+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:11.146+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T20:24:11.146+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:11.146+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T20:24:11.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:24:11.196+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.079 seconds
+[2026-03-04T20:48:02.256+0000] {processor.py:161} INFO - Started process (PID=87759) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:48:02.259+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T20:48:02.260+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:02.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:48:02.284+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:02.284+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T20:48:02.284+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:48:02.284+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T20:48:02.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T20:48:02.334+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.078 seconds
+[2026-03-04T22:18:14.416+0000] {processor.py:161} INFO - Started process (PID=89374) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T22:18:14.419+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T22:18:14.420+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:14.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T22:18:14.443+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:14.443+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T22:18:14.443+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:14.443+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T22:18:14.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T22:18:14.493+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.077 seconds
+[2026-03-04T22:32:26.539+0000] {processor.py:161} INFO - Started process (PID=90340) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T22:32:26.541+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T22:32:26.543+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:26.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T22:32:26.563+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:26.563+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T22:32:26.564+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:26.564+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T22:32:26.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T22:32:26.608+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2026-03-04T23:07:54.542+0000] {processor.py:161} INFO - Started process (PID=91789) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T23:07:54.545+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-04T23:07:54.546+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:54.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T23:07:54.567+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:54.567+0000] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-04T23:07:54.568+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:54.568+0000] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-04T23:07:54.568+0000] {processor.py:842} WARNING - No viable dags retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-04T23:07:54.615+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.074 seconds

@@ -1,0 +1,123 @@
+[2026-03-04T19:02:21.143+0000] {processor.py:161} INFO - Started process (PID=54857) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:02:21.145+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:02:21.147+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:02:21.172+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:02:21.295+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.295+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2026-03-04T19:02:21.300+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.299+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2026-03-04T19:02:21.302+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.302+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2026-03-04T19:02:21.302+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.302+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:02:21.308+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.308+0000] {dag.py:3055} INFO - Creating ORM DAG for example_params_trigger_ui
+[2026-03-04T19:02:21.308+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:02:21.308+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:02:21.318+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.176 seconds
+[2026-03-04T19:04:23.030+0000] {processor.py:161} INFO - Started process (PID=56354) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:04:23.033+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:04:23.035+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:23.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:04:23.063+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:04:23.139+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:23.138+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:04:23.146+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:04:23.146+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:04:23.157+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.128 seconds
+[2026-03-04T19:07:15.306+0000] {processor.py:161} INFO - Started process (PID=58053) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:07:15.308+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:07:15.309+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:15.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:07:15.336+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:07:15.407+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:15.407+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:07:15.414+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:07:15.414+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:07:15.425+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.121 seconds
+[2026-03-04T19:09:55.714+0000] {processor.py:161} INFO - Started process (PID=59591) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:09:55.717+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:09:55.719+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:55.719+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:09:55.747+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:09:55.818+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:55.818+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:09:55.825+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:09:55.825+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:09:55.839+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.125 seconds
+[2026-03-04T19:34:13.172+0000] {processor.py:161} INFO - Started process (PID=74778) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:34:13.175+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:34:13.176+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:13.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:34:13.205+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:34:13.276+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:13.276+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:34:13.283+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:34:13.283+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:34:13.295+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.124 seconds
+[2026-03-04T19:36:45.909+0000] {processor.py:161} INFO - Started process (PID=76471) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:36:45.912+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:36:45.913+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:45.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:36:45.943+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:36:46.016+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:46.016+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:36:46.023+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:36:46.023+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:36:46.035+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.127 seconds
+[2026-03-04T19:38:34.425+0000] {processor.py:161} INFO - Started process (PID=77498) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:38:34.427+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:38:34.429+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:34.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:38:34.456+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:38:34.527+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:34.527+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:38:34.534+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:38:34.534+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:38:34.545+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.121 seconds
+[2026-03-04T19:41:02.129+0000] {processor.py:161} INFO - Started process (PID=78902) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:41:02.132+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:41:02.133+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:02.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:41:02.163+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:41:02.236+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:02.235+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:41:02.243+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:41:02.243+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:41:02.255+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.127 seconds
+[2026-03-04T19:43:29.745+0000] {processor.py:161} INFO - Started process (PID=80287) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:43:29.748+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:43:29.749+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:29.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:43:29.778+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:43:29.851+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:29.851+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:43:29.858+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:43:29.858+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:43:29.869+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.125 seconds
+[2026-03-04T19:45:57.115+0000] {processor.py:161} INFO - Started process (PID=81680) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:45:57.117+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T19:45:57.118+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:57.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:45:57.142+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T19:45:57.214+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:57.213+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T19:45:57.221+0000] {logging_mixin.py:188} INFO - [2026-03-04T19:45:57.221+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T19:45:57.233+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.119 seconds
+[2026-03-04T20:04:14.717+0000] {processor.py:161} INFO - Started process (PID=83122) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:04:14.719+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T20:04:14.721+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:14.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:04:14.749+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:04:14.822+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:14.821+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:04:14.829+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:04:14.829+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T20:04:14.840+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.124 seconds
+[2026-03-04T20:14:41.097+0000] {processor.py:161} INFO - Started process (PID=84722) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:14:41.099+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T20:14:41.101+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:41.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:14:41.129+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:14:41.201+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:41.201+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:14:41.208+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:14:41.208+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T20:14:41.220+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.123 seconds
+[2026-03-04T20:24:06.132+0000] {processor.py:161} INFO - Started process (PID=86189) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:24:06.135+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T20:24:06.136+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:06.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:24:06.164+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:24:06.237+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:06.237+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:24:06.244+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:24:06.244+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T20:24:06.256+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.124 seconds
+[2026-03-04T20:47:57.431+0000] {processor.py:161} INFO - Started process (PID=87714) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:47:57.433+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T20:47:57.434+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:47:57.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:47:57.458+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T20:47:57.520+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:47:57.519+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T20:47:57.526+0000] {logging_mixin.py:188} INFO - [2026-03-04T20:47:57.526+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T20:47:57.536+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.106 seconds
+[2026-03-04T22:18:10.457+0000] {processor.py:161} INFO - Started process (PID=89336) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T22:18:10.459+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T22:18:10.461+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:10.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T22:18:10.488+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T22:18:10.561+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:10.560+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:18:10.568+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:18:10.568+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T22:18:10.580+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.124 seconds
+[2026-03-04T22:32:22.483+0000] {processor.py:161} INFO - Started process (PID=90301) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T22:32:22.486+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T22:32:22.487+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:22.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T22:32:22.515+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T22:32:22.588+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:22.587+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T22:32:22.595+0000] {logging_mixin.py:188} INFO - [2026-03-04T22:32:22.595+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T22:32:22.607+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.125 seconds
+[2026-03-04T23:07:49.638+0000] {processor.py:161} INFO - Started process (PID=91743) to work on /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T23:07:49.641+0000] {processor.py:830} INFO - Processing file /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-03-04T23:07:49.642+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:49.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T23:07:49.670+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-03-04T23:07:49.741+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:49.741+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-03-04T23:07:49.748+0000] {logging_mixin.py:188} INFO - [2026-03-04T23:07:49.748+0000] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-03-04T23:07:49.759+0000] {processor.py:183} INFO - Processing /Users/HP/storypoints-week1/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.123 seconds
